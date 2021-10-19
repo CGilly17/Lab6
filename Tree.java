@@ -52,7 +52,7 @@ class Tree {
 
 void print()
 {
-  System.out.println("This is a " + treeName + " tree.");
+  System.out.print("This is a " + treeName + " tree. ");
   System.out.print("It is a "+treeType);
   System.out.print(" and its leaves are currently "+leafColor);
   
@@ -64,5 +64,6 @@ void print()
   {
     System.out.print(". It does not lose its leaves for the winter.");
   }
+  System.out.println();
 }
 }
